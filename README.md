@@ -5,7 +5,7 @@ At [Blimp](http://getblimp.com/), we love working with Django. For every project
 
 #How to install
 
-    django-admin.py startproject --template=https://github.com/jpadilla/django-project-template/zipball/master --extension=py,md,dev project_name
+    django-admin.py startproject --template=https://github.com/askedrelic/django-project-template/zipball/master --extension=py,md,dev project_name
     
 #Apps included
 	Fabric
