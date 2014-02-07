@@ -3,7 +3,7 @@ django-project-template
 
 At [Blimp](http://getblimp.com/), we love working with Django. For every project we start we always ended up doing the same thing. Installing Django, setting up environment settings, installing South, etc... So I decided to take all of that and create a Django Project Template to use with the startproject command new in Django 1.6. This template has a couple of useful settings and Fabric commands that make deploying, managing, and using Django with Heroku easier.
 
-## Pre-install
+## Getting Started
 
 Always good to work in a virtualenv
 
@@ -13,7 +13,8 @@ $ cd env
 $ source bin/activate
 ```
 
-## Installing
+Install it!
+
 ```
 $ django-admin.py startproject --template=https://github.com/askedrelic/django-project-template/zipball/master --extension=py,md,dev project_name
 ```
